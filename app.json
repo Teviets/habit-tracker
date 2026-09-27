@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Florece",
+    "slug": "florece-habit-tracker",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#DFF4E9"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sebasegetrevi.florecehabittracker"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "./plugins/with-stable-kotlin-build",
+      "expo-secure-store"
+    ]
+  }
+}

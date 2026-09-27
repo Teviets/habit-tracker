@@ -141,3 +141,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Expo / React Native
+.expo/
+web-build/
+.DS_Store
+ios/
+android/
+
+# Backend
+backend/dist/
+backend/.env
+backend/coverage/
